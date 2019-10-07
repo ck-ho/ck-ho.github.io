@@ -3,13 +3,74 @@ body {
   background-color: #121212;
 }
 
-p {
+h1 {
   font-size: 72px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  font-weight: normal;
+  margin: 15px 0px 15px 15px;
   color: #ffffff;
 }
 
 a {
-  font-size: 36px;
+  font-size: 72px;
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 4px solid #ffffff;
+  padding: 0px;
+}
+
+img {
+  margin-left: 15px;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+#tokki {
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+section {
+  width: 100%;
+}
+
+.social {
+  border-style: none;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+p {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+footer {
+  display: flex;
+}
+
+.left {
+  display: flex;
+  margin-left: 15px;
+  flex: 50%;
+  padding-top: 0px;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  margin-right: 30px;
+  flex: 50%;
+  justify-content: flex-end;
+  padding-top: 0px;
+  align-items: center;
+}
+
+#jump {
+  font-size: 16px;
+  border-style: none;
+  text-decoration: underline;
 }
