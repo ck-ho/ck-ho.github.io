@@ -73,6 +73,7 @@ footer {
   display: flex;
   background-color: #242424;
   margin-top: 50px;
+  height: 100%;
 }
 
 .left {
