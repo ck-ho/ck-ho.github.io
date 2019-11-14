@@ -64,7 +64,7 @@ section {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   color: #ffffff;
   line-height: 1.3;
 }
@@ -84,7 +84,7 @@ footer {
 }
 
 #jump {
-  font-size: 16px;
+  font-size: 18px;
   border-style: none;
   text-decoration: underline;
   margin-top: 50px;
@@ -110,7 +110,7 @@ article {
 }
 
 #footermail {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: normal;
   border-style: none;
   text-decoration: underline;
@@ -121,7 +121,7 @@ article {
 }
 
 #linkedin {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: normal;
   width: auto;
   border-style: none;
