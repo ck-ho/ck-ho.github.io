@@ -140,3 +140,7 @@ article {
 #uniqlo_link:hover {
   text-decoration: none;
 }
+
+#tokki_article {
+  width: 800px;
+}
