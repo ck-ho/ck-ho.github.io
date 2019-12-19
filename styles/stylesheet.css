@@ -139,3 +139,7 @@ article {
 #tokki_link {
   text-decoration: none;
 }
+
+#tokki_link:hover {
+  text-decoration: none;
+}
