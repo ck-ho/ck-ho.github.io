@@ -38,7 +38,6 @@ a:hover {
 }
 
 img {
-  
   -webkit-user-drag: none;
   -khtml-user-drag: none;
   -moz-user-drag: none;
@@ -55,6 +54,7 @@ img {
 section {
   width: 100%;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .social {
@@ -132,15 +132,10 @@ article {
   text-decoration: none;
 }
 
-#uniqlo_link {
-  text-decoration: none;
-  border-style: none;
-}
-
-#uniqlo_link:hover {
-  text-decoration: none;
-}
-
 #tokki_article {
   width: 800px;
+}
+
+#tokki_link {
+  text-decoration: none;
 }
