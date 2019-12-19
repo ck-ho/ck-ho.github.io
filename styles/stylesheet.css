@@ -138,8 +138,10 @@ article {
 
 #tokki_link {
   text-decoration: none;
+  border-style: none;
 }
 
 #tokki_link:hover {
   text-decoration: none;
+  border-style: none;
 }
