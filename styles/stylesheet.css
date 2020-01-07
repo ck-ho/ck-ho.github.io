@@ -43,6 +43,8 @@ img {
   -moz-user-drag: none;
   -o-user-drag: none;
   user-drag: none;
+  margin-left: 20px;
+  margin-bottom: 0px;
 }
 
 #tokki {
@@ -52,9 +54,7 @@ img {
 }
 
 section {
-  width: 100%;
   margin-bottom: 20px;
-  margin-left: 20px;
 }
 
 .social {
@@ -133,16 +133,21 @@ article {
   text-decoration: none;
 }
 
-#tokki_article {
+.case {
   width: 800px;
 }
 
-#tokki_link {
+.tile {
   text-decoration: none;
   border-style: none;
 }
 
-#tokki_link:hover {
+.tile {
   text-decoration: none;
   border-style: none;
+}
+
+.caption {
+  margin-left: 20px;
+  margin-top: 5px;
 }
