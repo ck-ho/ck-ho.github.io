@@ -22,7 +22,6 @@ h3 {
   font-size: 36px;
   color: #ffffff;
   margin-top: 20px;
-  margin-bottom: 100px;
 }
 
 a {
@@ -115,6 +114,7 @@ article {
   font-weight: normal;
   border-style: none;
   text-decoration: underline;
+  margin-top: 100px;
 }
 
 #footermail:hover {
@@ -154,4 +154,9 @@ article {
 
 .case_image {
   margin-left: 0px;
+}
+
+.intext {
+  font-weight: normal;
+  font-size: 16px;
 }
