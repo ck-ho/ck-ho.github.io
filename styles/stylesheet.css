@@ -172,9 +172,7 @@ article {
 @media only screen and (min-width: 961px) {
   .desktop {
     display: flex;
-    justify-content: center;
-    width: 75%
-    border: green;
+    justify-content: center; 
 
 
   }
