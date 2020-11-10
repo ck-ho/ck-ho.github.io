@@ -245,12 +245,10 @@ section {
  }
 
   p {
-    font-size: 32px;
+    font-size: 28px;
   }
 
-  .footer_link {
-    font-size: 32px;
-  }
+
 
   .desktop {
     display: flex;
