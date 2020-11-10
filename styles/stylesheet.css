@@ -245,7 +245,11 @@ section {
  }
 
   p {
-    font-size: 28px;
+    font-size: 32px;
+  }
+
+  .footer_link {
+    font-size: 32px;
   }
 
   .desktop {
