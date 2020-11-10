@@ -185,10 +185,6 @@ section {
     margin-left: 0px;
   }
 
-  .main {
-    margin-left: 20px;
-  }
-
   figure {
     display: flex;
     justify-content: center;
@@ -207,6 +203,12 @@ section {
 
   .footer_link {
     font-size: 21px;
+  }
+
+  .main_mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .desktop {
