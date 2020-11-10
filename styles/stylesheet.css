@@ -55,10 +55,6 @@ img {
   padding-bottom: 0px;
 }
 
-section {
-  margin-bottom: 20px;
-}
-
 .social {
   border-style: none;
   text-decoration: underline;
@@ -170,6 +166,7 @@ header {
 
 section {
   margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -185,11 +182,14 @@ section {
   header {
     width: 90%;
     margin-top: 20px;
-    margin-left: 0px;
+    margin-left: 20px;
   }
 
   figure {
-    
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
   p {
