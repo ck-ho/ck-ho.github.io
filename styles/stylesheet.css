@@ -182,13 +182,16 @@ section {
   header {
     width: 90%;
     margin-top: 20px;
+    margin-left: 0px;
+  }
+
+  .main {
+    margin-left: 20px;
   }
 
   figure {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    display: block;
+    margin: 0px 0px 0px 0px;
   }
 
   p {
