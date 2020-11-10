@@ -44,6 +44,7 @@ img {
   user-drag: none;
   margin-left: 0px;
   margin-bottom: 0px;
+  max-width: 95%;
 }
 
 #tokki {
