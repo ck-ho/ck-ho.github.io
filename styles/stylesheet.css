@@ -44,7 +44,8 @@ img {
   user-drag: none;
   margin-left: 0px;
   margin-bottom: 0px;
-  max-width: 95%;
+  padding: 0px;
+  max-width: 90%;
   height: auto;
 }
 
@@ -173,42 +174,32 @@ section {
 
 @media only screen and (max-width: 480px) {
   article {
-    width: 95%;
+    width: 90%;
   }
 
   #about {
-    width: 95%;
-    margin-left: 0px;
-    margin-bottom: 0px;
+    width: 90%;
   }
 
   header {
-    width: 95%;
+    width: 90%;
     margin-top: 20px;
   }
 
-  h1 {
-    margin: 0px 0px 0px 0px;
-  }
-
   figure {
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
   }
 
- .main {
-   margin-left: 20px;
- }
-
   p {
-    font-size: 28px;
+    font-size: 21px;
   }
 
   .footer_link {
-    font-size: 28px;
+    font-size: 21px;
   }
 
   .desktop {
