@@ -45,6 +45,7 @@ img {
   margin-left: 0px;
   margin-bottom: 0px;
   max-width: 95%;
+  height: auto;
 }
 
 #tokki {
@@ -180,9 +181,8 @@ section {
   }
 
   header {
-    width: auto;
+    width: 95%;
     margin-top: 20px;
-    margin-left: 0px;
   }
 
   h1 {
