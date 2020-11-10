@@ -178,6 +178,8 @@ section {
 
   #about {
     width: 95%;
+    margin-left: 0px;
+    margin-bottom: 0px;
   }
 
   header {
@@ -186,10 +188,11 @@ section {
   }
 
   h1 {
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 0px 0px;
   }
 
   figure {
+    width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 50px;
