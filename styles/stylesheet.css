@@ -207,6 +207,10 @@ section {
     font-size: 40px;
   }
 
+  .footer_link {
+    font-size: 40px;
+  }
+
   .desktop {
     display: flex;
     flex-direction: column;
