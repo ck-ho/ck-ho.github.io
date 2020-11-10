@@ -190,12 +190,19 @@ section {
   }
 
   figure {
-    display: block;
-    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
 
   p {
     font-size: 21px;
+  }
+
+  footer {
+    margin-top: 0px;
   }
 
   .footer_link {
