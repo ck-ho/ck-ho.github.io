@@ -59,13 +59,13 @@ img {
 .social {
   border-style: none;
   text-decoration: underline;
-  font-size: 16px;
+  font-size: 21px;
 }
 
 p {
-  font-size: 18px;
+  font-size: 21px;
   color: #ffffff;
-  line-height: 1.3;
+  line-height: 1.4;
 }
 
 footer {
@@ -85,7 +85,7 @@ footer {
 }
 
 #jump {
-  font-size: 18px;
+  font-size: 21px;
   border-style: none;
   text-decoration: underline;
   margin-top: 50px;
@@ -111,7 +111,7 @@ article {
 }
 
 .footer_link {
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 500;
   width: auto;
   border-style: none;
@@ -139,7 +139,7 @@ article {
 
 .intext {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 21px;
   border-style: none;
   text-decoration: underline;
 }
@@ -195,16 +195,8 @@ section {
     margin-bottom: 25px;
   }
 
-  p {
-    font-size: 21px;
-  }
-
   footer {
     margin-top: 0px;
-  }
-
-  .footer_link {
-    font-size: 21px;
   }
 
   .main_mobile {
