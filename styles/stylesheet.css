@@ -205,6 +205,10 @@ section {
     align-items: center;
   }
 
+  .main {
+    margin-left: 20px;
+  }
+
   .desktop {
     display: flex;
     flex-direction: column;
