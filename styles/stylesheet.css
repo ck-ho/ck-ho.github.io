@@ -188,11 +188,7 @@ section {
   }
 
   figure {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    width: 100%;
   }
 
   footer {
