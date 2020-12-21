@@ -161,15 +161,16 @@ header {
   margin-left: 20px;
 }
 
-.main {
-  margin-left: 0px;
-}
-
 section {
   margin-left: 20px;
   margin-bottom: 20px;
 }
 
+/*
+Responsive styling for vertical mobile devices
+Full CSS flexbox w/ center column and 90% width for easy reading
+In the future, experiment with image width to span full center
+*/
 @media only screen and (max-width: 480px) {
   article {
     width: 90%;
@@ -208,6 +209,10 @@ section {
   }
 }
 
+/*
+Responsive styling for full-resolution desktop & laptops
+Full CSS flexbox w/ center column and limited width for reduced line length
+*/
 @media only screen and (min-width: 1200px) {
   article {
     width: 60%;
