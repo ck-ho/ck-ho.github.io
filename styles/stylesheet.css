@@ -66,6 +66,18 @@ p {
   font-size: 21px;
   color: #ffffff;
   line-height: 1.4;
+  max-width: 90%;
+}
+
+ul {
+  font-size: 21px;
+  color: #ffffff;
+  line-height: 1.4;
+  list-style-type: disc;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+  list-style-position: inside;
 }
 
 footer {
@@ -164,6 +176,7 @@ header {
 section {
   margin-left: 20px;
   margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 /*
@@ -186,6 +199,14 @@ In the future, experiment with image width to span full center
     width: 90%;
     margin-top: 10px;
     margin-left: 0px;
+  }
+
+  p {
+    max-width: 100%;
+  }
+
+  img {
+    max-width: 100%;
   }
 
   figure {
@@ -215,7 +236,7 @@ Full CSS flexbox w/ center column and limited width for reduced line length
 */
 @media only screen and (min-width: 1200px) {
   article {
-    width: 60%;
+    width: 80%;
     margin-top: 80px;
     margin-left: 0px;
   }
@@ -236,11 +257,23 @@ Full CSS flexbox w/ center column and limited width for reduced line length
     margin: 0px 0px 15px 0px;
   }
 
+  h2 {
+    margin-top: 0px;
+  }
+
+  p {
+    max-width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
   figure {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px 0px 50px 0px;
+    max-width: 100%;
   }
 
   #splash_header {
