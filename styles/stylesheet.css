@@ -207,6 +207,7 @@ In the future, experiment with image width to span full center
 
   img {
     max-width: 100%;
+    border: 1px solid green;
   }
 
   figure {
@@ -276,8 +277,17 @@ Full CSS flexbox w/ center column and limited width for reduced line length
     max-width: 100%;
   }
 
+  footer {
+    margin-top: 0px;
+  }
+
   #splash_header {
     margin-left: 20px;
+  }
+
+  .jumpback {
+    margin-top: 50px;
+    margin-bottom: 0px;
   }
 
  .desktop {
