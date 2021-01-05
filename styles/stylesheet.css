@@ -207,7 +207,6 @@ In the future, experiment with image width to span full center
 
   img {
     max-width: 100%;
-    border: 1px solid green;
   }
 
   figure {
