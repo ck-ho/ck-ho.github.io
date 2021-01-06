@@ -295,3 +295,68 @@ Full CSS flexbox w/ center column and limited width for reduced line length
     align-items: center;
   }
 }
+
+/*
+Thicc
+*/
+@media only screen and (min-width: 1600px) {
+  article {
+    width: 60%;
+    margin-top: 80px;
+    margin-left: 0px;
+  }
+
+  #about {
+    width: 60%;
+    margin-top: 80px;
+    margin-left: 0px;
+  }
+
+  header {
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+
+  h1 {
+    margin: 0px 0px 15px 0px;
+  }
+
+  h2 {
+    margin-top: 0px;
+  }
+
+  p {
+    max-width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  figure {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
+    max-width: 100%;
+  }
+
+  footer {
+    margin-top: 30px;
+  }
+
+  #splash_header {
+    margin-left: 20px;
+  }
+
+  .jumpback {
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+ .desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
