@@ -32,9 +32,15 @@ article {
   margin-left: 20px;
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (max-width: 480px) {
   article {
     max-width: 90%;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  article {
+    max-width: 80%;
   }
 }
 
