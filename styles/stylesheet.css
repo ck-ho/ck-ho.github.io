@@ -5,6 +5,20 @@ body {
   margin-bottom: 100px;
 }
 
+h1 {
+  font-family: Helvetica, Arial;
+  font-size: 100pt;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: Helvetica, Arial;
+  font-size: 50pt;
+  color: #FFFFFF;
+  font-weight: normal;
+}
+
 p {
   font-size: 24px;
   color: #FFFFFF;
